@@ -6,9 +6,9 @@ const Hero = () => {
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent"
+          className="absolute inset-0 bg-gradient-to-r from-[#0EA5E9]/20 to-transparent"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1482938289607-e9573fc25ebb')",
+            backgroundImage: "url('https://images.unsplash.com/photo-1518877593221-1f28583780b4')",
             backgroundPosition: 'center',
             backgroundSize: 'cover',
           }}
@@ -16,20 +16,20 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <span className="inline-block mb-4 px-4 py-1.5 bg-primary/10 text-primary rounded-full text-sm font-semibold tracking-wide">
-          Clean Water Initiative
+        <span className="inline-block mb-4 px-4 py-1.5 bg-[#0EA5E9]/10 text-[#0EA5E9] rounded-full text-sm font-semibold tracking-wide">
+          Ocean Cleanup Initiative
         </span>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 tracking-tight">
-          Protecting Our Waters<br />for Future Generations
+          Restoring Our Oceans<br />for a Sustainable Future
         </h1>
         <p className="max-w-2xl mx-auto text-lg sm:text-xl text-white/90 mb-8">
-          Join our mission to combat water pollution and preserve our most precious resource.
-          Together, we can make a difference.
+          Join our mission to clean and protect our oceans from plastic pollution and marine debris.
+          Together, we can save marine life and preserve ocean ecosystems.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
             href="#donate"
-            className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-primary hover:bg-primary/90 transition-colors"
+            className="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#0EA5E9] hover:bg-[#0EA5E9]/90 transition-colors"
           >
             Make a Donation
           </a>

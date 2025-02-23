@@ -1,3 +1,6 @@
+
+import { Heart, ChevronDown, Laugh } from 'lucide-react';
+
 const Hero = () => {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -45,4 +48,4 @@ const Hero = () => {
   );
 };
 
-export default Hero; 
+export default Hero;
